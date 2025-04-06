@@ -7,9 +7,6 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv
 
-logging.basicConfig(format='%(asctime)s %(levelname)s:%(name)s:%(message)s')
-logging.getLogger().setLevel(20)
-
 # Load environment variables from .env file
 load_dotenv()
 
