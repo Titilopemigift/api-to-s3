@@ -1,4 +1,8 @@
-<!-- ARN FORMAT/PATTERN -->
+
+
+ARN FORMAT/PATTERN FOR S3
+
+URL: https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazons3.html#amazons3-resources-for-iam-policies
 
 1.	S3 accesspoint: arn:${Partition}:s3:${Region}:${Account}:accesspoint/${AccessPointName}
 
@@ -16,6 +20,10 @@ Url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens_group.ht
 
 Url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingObjects.html
 
+ARN FORMAT/PATTERN FOR IAM
+
+URL: https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsidentityandaccessmanagementiam.html#awsidentityandaccessmanagementiam-resources-for-iam-policies
+
 5.	IAM mfa: arn:${Partition}:iam::${Account}:mfa/${MfaTokenIdWithPath}
 
 Url: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html
@@ -27,6 +35,11 @@ Url: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html
 7.	IAM user: arn:${Partition}:iam::${Account}:user/${UserNameWithPath}
 
 Url: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html
+
+
+ARN FORMAT/PATTERN FOR EC2
+
+URL: https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2.html#amazonec2-resources-for-iam-policies
 
 8.	EC2 elastic-ip: arn:${Partition}:ec2:${Region}:${Account}:elastic-ip/${AllocationId}
 
